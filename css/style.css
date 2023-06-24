@@ -1,0 +1,366 @@
+/* Start Common  styling code */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #3d5f00;
+}
+
+.container {
+    width: 1170px;
+    margin: 0px auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500px;
+    color: #3d5f00;
+    text-transform: uppercase;
+    padding: 35px 22px;
+}
+
+
+/* End Common  styling code */
+
+
+/* Start Header Section Styling */
+#headSection {
+    background-color: #3d5f00;
+    text-align: center;
+}
+
+#headSection .item {
+    padding: 33px 0;
+    width: 25%;
+}
+
+#headSection .row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#headSection .NavSection {
+    background-color: #f0f3eb;
+}
+
+#headSection .inner_row sup {
+    height: 30px;
+    background: url(./../image/header_image_bg_icon.png);
+}
+
+#headSection nav .row {
+    justify-content: center;
+}
+
+#headSection nav a:hover {
+    background-color: antiquewhite;
+}
+
+#headSection .searchBar form>input {
+    background: none;
+    border: none;
+    color: #ffffff;
+}
+
+/* End Header Section Styling */
+
+/* Start all Section Common Css Code */
+.detailsHeading h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.detailsHeading p {
+    font-size: 25px;
+    font-weight: 400;
+    padding: 58px 0;
+}
+
+.detailsInfo h3 {
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.detailsInfo p {
+    font-size: 25px;
+    font-weight: 400;
+    padding: 40px 0;
+}
+
+.detailsInfo h6 {
+    font-size: 33px;
+}
+
+/* Start all Section Common Css Code */
+
+
+/* Start Bannar Section 1 */
+#bannarSection {
+    color: #3d5f00;
+}
+
+/* End Bannar Section 1 */
+
+
+
+/* Start About Section 2 */
+#aboutSection {
+    padding: 171px 0;
+    color: #3d5f00;
+}
+
+#aboutSection .detailsHeading {
+    text-align: center;
+}
+
+#aboutSection .row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#aboutSection .item {
+    width: 50%;
+}
+
+#aboutSection .detailsInfo>.item_1 {
+    padding-right: 100px;
+    padding-top: 50px;
+}
+
+#aboutSection .item_2 {
+    padding-left: 124px;
+    padding-top: 50px;
+}
+
+#aboutSection .food_image {
+    text-align: center;
+    height: 100%;
+    background-image: linear-gradient(rgba(61, 95, 0, 0.302), rgba(61, 95, 0, 0.302), rgba(61, 95, 0, 0.302)), url(./../image/section_1_image_1_1.png);
+    background-position: right, right;
+    background-size: cover, cover;
+    background-repeat: no-repeat, no-repeat;
+    padding: 170px;
+}
+
+#aboutSection .detailsInfo form.row {
+    padding-right: 150px;
+}
+
+#aboutSection form .bg {
+    background-color: #3d5f00;
+    font-size: 25px;
+    color: #ffffff;
+    padding: 27px 34px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    margin: 50px 0;
+
+}
+
+/* End About Section 2 */
+
+
+
+/* Start Service Section 3 */
+
+#serviceSection {
+    color: #3d5f00;
+}
+
+#serviceSection .detailsHeading {
+    text-align: center;
+
+}
+
+#serviceSection .row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#serviceSection .item {
+    width: 40%;
+    margin: 20px 0;
+}
+
+#serviceSection .food_image {
+    text-align: center;
+
+}
+
+#serviceSection a {
+    margin: 50px 0;
+    font-size: 25px;
+    background-color: #3d5f00;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+    padding: 21px 42px;
+    color: #ffffff;
+}
+
+#serviceSection .serviceBg {
+    padding: 80px;
+    background: url(./../image/service_section_service_bg_image.png) center/cover no-repeat;
+}
+
+#serviceSection .serviceBg .detailsInfo>div.item_3 {
+    color: #3d5f00;
+    width: 40%;
+}
+
+/* End Service Section 3 */
+
+
+
+/* Start Pricing Section 4 */
+#pricingSection {
+    text-align: center;
+    color: #3d5f00;
+}
+
+#pricingSection {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#pricingSection .item {
+    width: 33.33%;
+    background-color: #f0f3eb;
+    padding: 43px;
+}
+
+#pricingSection .detailsInfo .innerItem1 {
+    background: #3d5f00;
+    padding: 72px 125px;
+    color: #ffffff;
+}
+
+#pricingSection .detailsInfo .innerItem2 {
+    padding: 30px 0;
+}
+
+#pricingSection a {
+    color: #ffffff;
+    padding: 22px 38px;
+    background: #3d5f00;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+#pricingSection .pricingBg {
+    background: url(./../image/Pricing_bg_image.png) center/cover no-repeat;
+    margin: 70px 0;
+}
+
+#pricingSection .pricingBg .detailsInfo {
+    margin-left: auto;
+    width: 50%;
+    text-align: right;
+}
+
+#pricingSection .pricingBg h5 {
+    letter-spacing: 5px;
+    font-size: 33px;
+    font-weight: 500;
+}
+
+#pricingSection .pricingBg h6 {
+    font-size: 33px;
+}
+
+/* End Pricing Section 4 */
+
+
+
+/* Start Blog Section 5 */
+#blogSection .detailsHeading {
+    text-align: center;
+}
+
+#blogSection .row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#blogSection .detailsInfo .item {
+    width: 33.33%;
+}
+
+#blogSection .detailsInfo .inner_div {
+    padding: 0 70px;
+}
+
+#blogSection a {
+    color: #ffffff;
+    background-color: #3d5f00;
+    padding: 15px 38px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+#blogSection .detailsInfo h3 {
+    font-size: 30px;
+}
+
+/* End Blog Section 5 */
+
+
+
+/* Footer section */
+#footerSection {
+    padding: 64px 0;
+    text-align: center;
+    background-color: #3d5f00;
+    color: #ffffff;
+}
+
+#footerSection .container {
+    margin: 0 auto;
+}
+
+#footerSection .row {
+    justify-content: center;
+    align-items: center;
+}
+
+#footerSection img {
+    padding-bottom: 36px;
+}
+
+#footerSection h2 {
+    font-size: 50px;
+}
+
+#footerSection h4 {
+    font-size: 40px;
+
+}
+
+#footerSection h5 {
+    font-size: 33px;
+    font-weight: 200;
+}
+
+#footerSection ul {
+    padding: 42px 450px 0px;
+}
+
+#footerSection ul>li>img {
+    margin: 0px 10px;
+}
+
+/* Footer section */
